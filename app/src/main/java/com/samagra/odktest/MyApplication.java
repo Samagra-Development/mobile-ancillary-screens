@@ -65,8 +65,8 @@ public class MyApplication extends Application implements MainApplication, Lifec
         InternetMonitor.init(this);
         Manager.init(this);
         AncillaryScreensDriver.init(this, AppConstants.BASE_API_URL,
-                "http://142.93.208.135:8080/shiksha-saathi/",
-                "http://142.93.208.135:8080/shiksha-saathi/",
+                "http://localhost:8080/shiksha-saathi/",
+                "http://localhost:8080/shiksha-saathi/",
                 "4b49c1c8-f90e-41e9-99ab-16d4af9eb269");
         initBus();
     }

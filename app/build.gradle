@@ -48,8 +48,6 @@ android {
         vectorDrawables.useSupportLibrary = true
         // Testing
         applicationId "com.samagra.demo.samiksha"
-        // For Play store
-        // applicationId "com.samagra.shikshaSaathi"
         minSdkVersion 16
         versionCode getMasterCommitCount()
         versionName getVersionName()
